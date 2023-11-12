@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# skaffold
+skaffold
+
+# skaffold.yaml is ignored since it is copied from .devcontainer/ depending on the dev environment
+/skaffold.yaml
